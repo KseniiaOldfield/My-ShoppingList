@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(list.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background-color: rgba(18, 18, 18, 0.9);
+  min-height: 90vh;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #acd4f7;
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 35px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input {
+  flex: 1;
+  padding: 15px;
+  margin-top:10px;
+  margin-left: 2px;
+  border: none;
+  font-size: 20px;
+  background-color: #acd4f7;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.btnAdd {
+  margin-top: 10px;
+  font-family: 'Rubik Vinyl', cursive;
+  background-color: rgba(45, 44, 44, 0.9);
+  border: 1px solid;
+  margin-right: 2px;
+  color: #acd4f7;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.delete {
+  flex: 1;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f280a2;
+  color: rgb(33, 1, 18);
+  font-family: 'Rubik Vinyl', cursive;
+  font-size: 22px;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #acd4f7;
+  color: black;
+  border-radius: 5px;
+  margin: 5px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  ul, li {
+      font-family: 'Kanit', sans-serif;
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      font-size: 25px;
+      color: #fff;
+      word-wrap: break-word;
   }
-}
